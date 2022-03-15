@@ -28,13 +28,15 @@ namespace FiguresInheritance
             figuresContainer.AddFigure(new Cylinder(21.3f, 7));
             figuresContainer.AddFigure(new Cone(18.2f, 8.9f));
 
-            figuresContainer.PrintAllFigures();
+            if(!figuresContainer.PrintAllFigures())
+                throw new ArgumentNullException(nameof(figuresContainer));
             Console.WriteLine("-------------------------------------------------------");
             figuresContainer.PrintFigureByIndex(3);
             Console.WriteLine("-------------------------------------------------------");
             figuresContainer.DeleteFigureByIndex(3);
 
-            figuresContainer.PrintAllFigures();
+            if (!figuresContainer.PrintAllFigures())
+                throw new ArgumentNullException(nameof(figuresContainer));
 
             Console.WriteLine("Done :)");
             Console.ReadLine();
