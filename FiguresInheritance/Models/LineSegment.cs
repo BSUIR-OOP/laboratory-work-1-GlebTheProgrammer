@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FiguresInheritance.Models
 {
-    internal class LineSegment : Figure // Отрезок
+    internal class LineSegment : Figure
     {
         protected float Length { get; set; }
 

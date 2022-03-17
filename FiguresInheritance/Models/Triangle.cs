@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FiguresInheritance.Models
 {
-    internal class Triangle : Figure // Треугольник
+    internal class Triangle : Figure
     {
         protected float SideA { get; set; }
         protected float SideB { get; set; }

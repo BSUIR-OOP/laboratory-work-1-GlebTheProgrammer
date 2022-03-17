@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FiguresInheritance.Models
 {
-    internal class Square : LineSegment // Квадрат
+    internal class Square : LineSegment
     {
         protected float Width { get; set; }
         protected float Perimeter { get; set; }
-        protected float Area { get; set; }  // Площадь
+        protected float Area { get; set; }
 
 
         public Square(float side) : base(side)

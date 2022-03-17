@@ -58,7 +58,7 @@ namespace FiguresInheritance.domain
                 return false;
             }
 
-            Console.WriteLine($"Figure index: {figures[index].Index}"); // Да-да, пошёл я на*ер
+            Console.WriteLine($"Figure index: {figures[index].Index}");
             figures[index].GetAllFields();
             return true;
         }

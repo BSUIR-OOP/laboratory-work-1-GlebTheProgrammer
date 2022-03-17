@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FiguresInheritance.Models
 {
-    internal class Circle : Figure //Круг
+    internal class Circle : Figure
     {
         protected float Radius { get; set; }
         protected float Diameter { get; set; }

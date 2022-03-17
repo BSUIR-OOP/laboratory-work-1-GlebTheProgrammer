@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FiguresInheritance.Models
 {
-    internal class Rectangle : LineSegment // Прямоугольник
+    internal class Rectangle : LineSegment
     {
         protected float Width { get; set; }
         protected float Perimeter { get; set; }
-        protected float Area { get; set; }  // Площадь
+        protected float Area { get; set; }
 
         public Rectangle(float length, float width) : base(length)
         {

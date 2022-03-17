@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FiguresInheritance.Models
 {
-    internal class Rhombus : LineSegment // Ромб
+    internal class Rhombus : LineSegment
     {
         protected float Perimeter { get; set; }
         protected float Area { get; set; }
