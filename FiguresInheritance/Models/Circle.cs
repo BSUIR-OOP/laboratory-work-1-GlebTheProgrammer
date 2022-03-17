@@ -12,9 +12,8 @@ namespace FiguresInheritance.Models
         protected float Diameter { get; set; }
         protected float Area { get; set; }
 
-        public Circle(float radius, float piValue = 3.14f)
+        public Circle(float radius, float piValue = (float)Math.PI)
         {
-
             Radius = radius;
             Diameter = 2 * Radius;
             Area = piValue * Radius * Radius;

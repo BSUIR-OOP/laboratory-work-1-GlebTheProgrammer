@@ -10,7 +10,7 @@ namespace FiguresInheritance.Models
     {
         protected float Heigh { get; set; }
         protected float Volume { get; set; }
-        public Cylinder(float radius, float heigh, float piValue = 3.14F) : base(radius, piValue)
+        public Cylinder(float radius, float heigh, float piValue = (float)Math.PI) : base(radius, piValue)
         {
             Heigh = heigh;
             Volume = Area * heigh;
