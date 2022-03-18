@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="domain\FiguresContainer.cs" />
     <Compile Include="Interfaces\IFigure.cs" />
-    <Compile Include="Interfaces\IFiguresContainer.cs" />
     <Compile Include="Models\Circle.cs" />
     <Compile Include="Models\Cone.cs" />
     <Compile Include="Models\Cube.cs" />
