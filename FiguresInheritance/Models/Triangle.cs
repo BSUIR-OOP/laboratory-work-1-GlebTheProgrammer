@@ -10,7 +10,20 @@ namespace FiguresInheritance.Models
     {
         protected float SideA { get; set; }
         protected float SideB { get; set; }
-        protected float SideC { get; set; }
+
+        protected float sideC;
+        protected float SideC
+        {
+            get { return sideC; }
+            set 
+            {
+                if (SideA + SideB > value && SideB + value > SideA && SideA + value > SideB)
+                    sideC = value;
+                else
+                    throw new ArgumentException("Wrong parameters. Sum of 2 other sides need to me greater then 3rd.");
+            }
+        }
+
         protected float Perimeter { get; set; }
         protected float Area { get; set; }
 

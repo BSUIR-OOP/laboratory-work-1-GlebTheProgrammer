@@ -11,8 +11,6 @@ namespace FiguresInheritance
     {
         static void Main(string[] args)
         {
-            // Единственное, нет проверок на отрицательные числа и на стороны (потипу как для треугольника)
-            // Надеюсь, это не проблема
             var figuresContainer = new List<Figure>();
 
             figuresContainer.Add(new Figure());
@@ -48,7 +46,7 @@ namespace FiguresInheritance
             }
         }
 
-        static void PrintFigureByID(List<Figure> figuresList, int id)
+        static void PrintFigureByID(List<Figure> figuresList, uint id)
         {
             int index = 0;
             foreach (var figure in figuresList)
@@ -64,18 +62,18 @@ namespace FiguresInheritance
             Console.Write($"Figure with such index was not found.");
         }
 
-        static void DeleteFigureByID(List<Figure> figuresList, int id)
+        static void DeleteFigureByID(List<Figure> figuresList, uint id)
         {
-            int counter = 0;
+            int index = 0;
             foreach (var figure in figuresList)
             {
                 if (figure.Id == id)
                 {
-                    figuresList.RemoveAt(counter);
+                    figuresList.RemoveAt(index);
                     Console.WriteLine("Figure was deleted successfully.");
                     return;
                 }
-                counter++;
+                index++;
             }
             Console.WriteLine("Figure with that index does not exist. Nothing happened.");
             return;
