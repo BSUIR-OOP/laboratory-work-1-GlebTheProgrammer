@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresInheritance", "FiguresInheritance\FiguresInheritance.csproj", "{D293D616-92F2-4E1C-B203-96D5780F7A39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D293D616-92F2-4E1C-B203-96D5780F7A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D293D616-92F2-4E1C-B203-96D5780F7A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D293D616-92F2-4E1C-B203-96D5780F7A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D293D616-92F2-4E1C-B203-96D5780F7A39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2486328-9BEA-4639-A6D1-2069F4FADA73}
+	EndGlobalSection
+EndGlobal

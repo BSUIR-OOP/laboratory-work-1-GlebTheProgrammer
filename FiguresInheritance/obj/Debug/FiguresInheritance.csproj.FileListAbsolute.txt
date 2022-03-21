@@ -1,0 +1,8 @@
+C:\Users\Gleb\Desktop\For Git\OOP\Lab1\laboratory-work-1-GlebTheProgrammer\FiguresInheritance\bin\Debug\FiguresInheritance.exe.config
+C:\Users\Gleb\Desktop\For Git\OOP\Lab1\laboratory-work-1-GlebTheProgrammer\FiguresInheritance\bin\Debug\FiguresInheritance.exe
+C:\Users\Gleb\Desktop\For Git\OOP\Lab1\laboratory-work-1-GlebTheProgrammer\FiguresInheritance\bin\Debug\FiguresInheritance.pdb
+C:\Users\Gleb\Desktop\For Git\OOP\Lab1\laboratory-work-1-GlebTheProgrammer\FiguresInheritance\obj\Debug\FiguresInheritance.csproj.AssemblyReference.cache
+C:\Users\Gleb\Desktop\For Git\OOP\Lab1\laboratory-work-1-GlebTheProgrammer\FiguresInheritance\obj\Debug\FiguresInheritance.csproj.SuggestedBindingRedirects.cache
+C:\Users\Gleb\Desktop\For Git\OOP\Lab1\laboratory-work-1-GlebTheProgrammer\FiguresInheritance\obj\Debug\FiguresInheritance.csproj.CoreCompileInputs.cache
+C:\Users\Gleb\Desktop\For Git\OOP\Lab1\laboratory-work-1-GlebTheProgrammer\FiguresInheritance\obj\Debug\FiguresInheritance.exe
+C:\Users\Gleb\Desktop\For Git\OOP\Lab1\laboratory-work-1-GlebTheProgrammer\FiguresInheritance\obj\Debug\FiguresInheritance.pdb
